@@ -129,5 +129,15 @@ export class InitiativeGalleryComponent {
       campaignURL:
         'https://www.instagram.com/p/C6fBoeoOjoU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
+    {
+      id: 13,
+      name: 'Ateneu Libertário',
+      description:
+        'Campanha do Ateneu Libertário arrecadando recursos para auxiliar os atingidos.',
+      imageUrl: '/assets/img/ateneu.jpg',
+      types: ['Doações físicas', 'PIX'],
+      campaignURL:
+        'https://www.instagram.com/p/C6jlFtlOFIR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    },
   ];
 }
