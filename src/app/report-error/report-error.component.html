@@ -1,0 +1,42 @@
+<div class="max-w-md mx-auto mt-10">
+  <form
+    name="error-report"
+    (ngSubmit)="submitReport($event)"
+    #reportForm="ngForm"
+    data-netlify="true"
+  >
+    <div class="mb-6">
+      <label for="errorDetail" class="block text-sm font-medium text-gray-700"
+        >Erro:</label
+      >
+      <textarea
+        id="errorDetail"
+        rows="4"
+        name="errorDetail"
+        [(ngModel)]="errorDetails"
+        required
+        class="mt-1 block w-full p-2.5 border border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+      ></textarea>
+    </div>
+    <div class="mb-6">
+      <label for="contactEmail" class="block text-sm font-medium text-gray-700"
+        >Seu e-mail (opcional)</label
+      >
+      <input
+        type="email"
+        id="contactEmail"
+        name="contactEmail"
+        [(ngModel)]="contactEmail"
+        class="mt-1 block w-full p-2.5 border border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+      />
+    </div>
+    <input type="hidden" name="form-name" value="error-report" />
+    <button
+      type="submit"
+      class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      [disabled]="!reportForm.valid"
+    >
+      Enviar
+    </button>
+  </form>
+</div>

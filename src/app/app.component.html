@@ -12,15 +12,11 @@
         Ajude diretamente iniciativas da Sociedade Civil que estão atuando no
         auxílio às populações afetadas.
       </p>
+      <nav>
+        <button [routerLink]="['/']">Iniciativas</button>
+        <button [routerLink]="['/informar-erro']">Informar um erro</button>
+      </nav>
     </div>
-    <div class="container mx-auto px-4 py-8">
-      <div class="masonry-grid md:columns-2 lg:columns-3 w-full">
-        @for (initiative of initiatives; track initiative.id) {
-        <div class="masonry-item col-span-1 w-full">
-          <app-initiative-card [initiative]="initiative"></app-initiative-card>
-        </div>
-        }
-      </div>
-    </div>
+    <router-outlet></router-outlet>
   </body>
 </html>
