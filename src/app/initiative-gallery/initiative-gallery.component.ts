@@ -109,5 +109,15 @@ export class InitiativeGalleryComponent {
       campaignURL:
         'https://www.instagram.com/p/C6eqHLBt4dj/?utm_source=ig_web_copy_link',
     },
+    {
+      id: 11,
+      name: 'Movimento Brasil Popular',
+      description:
+        'Campanha do Movimento Brasil Popular arrecadando recursos para auxiliar os atingidos.',
+      imageUrl: '/assets/img/brasilpopular.jpg',
+      types: ['PIX'],
+      campaignURL:
+        'https://www.instagram.com/p/C6hV-lkP0t8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    },
   ];
 }
