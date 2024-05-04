@@ -51,5 +51,44 @@ export class InitiativeGalleryComponent {
       campaignURL:
         'https://www.instagram.com/p/C6eN5wuR0W3/?utm_source=ig_web_copy_link',
     },
+    {
+      id: 5,
+      name: 'MST',
+      description:
+        'Campanha do Movimento Sem Terra arrecadando recursos para atuar na crise.',
+      imageUrl: '/assets/img/mst.jpg',
+      campaignURL:
+        'https://www.instagram.com/p/C6jX-njOLiD/?utm_source=ig_web_copy_link',
+      types: ['PIX'],
+    },
+    {
+      id: 6,
+      name: 'Hemocentro',
+      description: 'Campanha do Hemocentro para doação de sangue.',
+      imageUrl: '/assets/img/hemocentro.jpg',
+      types: ['Doação de sangue'],
+      campaignURL:
+        'https://www.instagram.com/p/C6errRSuuXy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    },
+    {
+      id: 7,
+      name: '101 Vira Latas',
+      description:
+        'Campanha da ONG 101 Vira Latas para atuar no amparo aos animais desabrigados.',
+      imageUrl: '/assets/img/101viralatas.jpg',
+      types: ['Doações físicas', 'Voluntariado'],
+      campaignURL:
+        'https://www.instagram.com/p/C6fAnqvsQhu/?utm_source=ig_web_copy_link',
+    },
+    {
+      id: 8,
+      name: 'GRAD - Grupo de Resposta a Animais em Desastres',
+      description:
+        'Campanha de arrecadação do GRAD, que está atuando no resgate de animais.',
+      imageUrl: '/assets/img/grad.jpg',
+      types: ['PIX'],
+      campaignURL:
+        'https://www.instagram.com/p/C6eyJkaRaWN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    },
   ];
 }
