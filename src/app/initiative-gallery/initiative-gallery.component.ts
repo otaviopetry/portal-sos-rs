@@ -119,5 +119,15 @@ export class InitiativeGalleryComponent {
       campaignURL:
         'https://www.instagram.com/p/C6hV-lkP0t8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
+    {
+      id: 12,
+      name: 'Diversos',
+      description:
+        'Post da Vila Flores reunindo diversas ações para participar.',
+      imageUrl: '/assets/img/vilaflores.jpg',
+      types: ['Diversos'],
+      campaignURL:
+        'https://www.instagram.com/p/C6fBoeoOjoU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    },
   ];
 }
