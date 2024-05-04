@@ -90,5 +90,24 @@ export class InitiativeGalleryComponent {
       campaignURL:
         'https://www.instagram.com/p/C6eyJkaRaWN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
+    {
+      id: 9,
+      name: 'Defesa Civil',
+      description: 'Campanha de Voluntariado para atuar junto à Defesa Civil.',
+      imageUrl: '/assets/img/defesa-civil.jpg',
+      types: ['Voluntariado'],
+      campaignURL:
+        'https://www.instagram.com/p/CzcXHM6uu-L/?utm_source=ig_web_copy_link',
+    },
+    {
+      id: 10,
+      name: 'SindBancarios',
+      description:
+        'Campanha do Sindicato dos Bancários de POA arrecando doações físicas e financeiras para auxílio aos atingidos.',
+      imageUrl: '/assets/img/sindbancarios.jpg',
+      types: ['Doações físicas', 'PIX'],
+      campaignURL:
+        'https://www.instagram.com/p/C6eqHLBt4dj/?utm_source=ig_web_copy_link',
+    },
   ];
 }
