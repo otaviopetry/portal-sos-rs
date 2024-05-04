@@ -1,25 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Community Help Initiatives</title>
-  </head>
-  <body>
-    <div class="bg-blue-500 text-white text-center p-12">
-      <h1 class="text-4xl font-bold">Portal SOS RS</h1>
-      <p class="text-xl mt-4">
-        Ajude diretamente iniciativas da Sociedade Civil que estão atuando no
-        auxílio às populações afetadas.
-      </p>
-      <nav>
-        <button [routerLink]="['/']">Iniciativas</button>
-        <button [routerLink]="['/divulgar-iniciativa']">
-          Divulgar iniciativa
-        </button>
-        <button [routerLink]="['/informar-erro']">Informar um erro</button>
-      </nav>
-    </div>
-    <router-outlet></router-outlet>
-  </body>
-</html>
+<div class="bg-blue-500 text-white text-center p-12">
+  <h1 class="text-4xl font-bold">Portal SOS RS</h1>
+  <p class="text-xl mt-4">
+    Ajude diretamente iniciativas da Sociedade Civil que estão atuando no
+    auxílio às populações afetadas.
+  </p>
+  <nav>
+    <button [routerLink]="['/']">Iniciativas</button>
+    <button [routerLink]="['/divulgar-iniciativa']">Divulgar iniciativa</button>
+    <button [routerLink]="['/informar-erro']">Informar um erro</button>
+  </nav>
+</div>
+<router-outlet></router-outlet>

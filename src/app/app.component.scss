@@ -14,5 +14,15 @@ nav {
 
   button {
     margin: 0 1rem;
+    font-weight: bold;
+  }
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+
+    button:not(:last-child) {
+      margin-bottom: 1rem;
+    }
   }
 }
