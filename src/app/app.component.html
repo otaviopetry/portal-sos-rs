@@ -6,7 +6,6 @@
     <title>Community Help Initiatives</title>
   </head>
   <body>
-    <!-- Hero Unit -->
     <div class="bg-blue-500 text-white text-center p-12">
       <h1 class="text-4xl font-bold">Portal SOS RS</h1>
       <p class="text-xl mt-4">
@@ -14,12 +13,10 @@
         auxílio às populações afetadas.
       </p>
     </div>
-
-    <!-- Gallery -->
     <div class="container mx-auto px-4 py-8">
-      <div class="masonry-grid md:columns-2 lg:columns-3">
+      <div class="masonry-grid md:columns-2 lg:columns-3 w-full">
         @for (initiative of initiatives; track initiative.id) {
-        <div class="masonry-item">
+        <div class="masonry-item col-span-1 w-full">
           <app-initiative-card [initiative]="initiative"></app-initiative-card>
         </div>
         }

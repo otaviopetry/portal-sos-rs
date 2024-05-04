@@ -39,7 +39,7 @@ export class AppComponent {
       id: 3,
       name: 'MTST',
       description:
-        'Campanha do Movimento dos Trabalhadores Sem Teto arrecando recursos para a Cozinha Solidária da Azenha.',
+        'Campanha do Movimento dos Trabalhadores Sem Teto arrecadando recursos para a Cozinha Solidária da Azenha.',
       imageUrl: '/assets/img/mtst.jpeg',
       types: ['PIX'],
       campaignURL: 'https://twitter.com/mtst/status/1786493868487151735',
