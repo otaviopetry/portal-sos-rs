@@ -1,20 +1,25 @@
-<div class="initiative-card max-w-sm rounded overflow-hidden shadow-lg">
-  <img
-    class="w-full h-auto object-cover"
-    [src]="initiative.imageUrl"
-    alt="Imagem da iniciativa"
-  />
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">{{ initiative.name }}</div>
-    <p class="text-gray-700 text-base" [innerHTML]="initiative.description"></p>
+<a [href]="initiative.campaignURL" target="_blank" rel="noreferrer noopener">
+  <div class="initiative-card max-w-sm rounded overflow-hidden shadow-lg">
+    <img
+      class="w-full h-auto object-cover"
+      [src]="initiative.imageUrl"
+      alt="Imagem da iniciativa"
+    />
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">{{ initiative.name }}</div>
+      <p
+        class="text-gray-700 text-base"
+        [innerHTML]="initiative.description"
+      ></p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      @for (type of initiative.types; track type) {
+      <span
+        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+      >
+        {{ type }}
+      </span>
+      }
+    </div>
   </div>
-  <div class="px-6 pt-4 pb-2">
-    @for (type of initiative.types; track type) {
-    <span
-      class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-    >
-      {{ type }}
-    </span>
-    }
-  </div>
-</div>
+</a>
