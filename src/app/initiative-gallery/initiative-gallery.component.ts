@@ -16,7 +16,7 @@ export class InitiativeGalleryComponent {
       name: 'Odara',
       description:
         'Empresa da iniciativa privada que está recolhendo doações juntamente ao <strong>Instituto Caldeira</strong> para destinar às populações atingidas do Vale do Taquari e Vale do Rio Pardo.',
-      imageUrl: '/assets/img/odara.jpg',
+      imageUrl: '/assets/img/odara.webp',
       regions: ['Vale do Taquari', 'Vale do Rio Pardo'],
       types: ['Doações físicas'],
       campaignURL:
@@ -27,7 +27,7 @@ export class InitiativeGalleryComponent {
       name: 'Universidades Federais',
       description:
         'Campanha de Associações ligadas à <strong>UFRGS</strong>, <strong>UFCSPA</strong> e <strong>IFRS</strong>.',
-      imageUrl: '/assets/img/assufrgs.jpg',
+      imageUrl: '/assets/img/assufrgs.webp',
       types: ['PIX'],
       campaignURL:
         'https://www.instagram.com/p/C6erNylu-WT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
@@ -37,7 +37,7 @@ export class InitiativeGalleryComponent {
       name: 'MTST',
       description:
         'Campanha do Movimento dos Trabalhadores Sem Teto arrecadando recursos para a Cozinha Solidária da Azenha.',
-      imageUrl: '/assets/img/mtst.jpeg',
+      imageUrl: '/assets/img/mtst.webp',
       types: ['PIX'],
       campaignURL: 'https://twitter.com/mtst/status/1786493868487151735',
     },
@@ -46,7 +46,7 @@ export class InitiativeGalleryComponent {
       name: 'Instituto Vakinha',
       description:
         'Campanha do Instituto Vakinha juntamente ao Pretinho Básico e Badin O Colono arrecadando recursos para auxiliar os atingidos.',
-      imageUrl: '/assets/img/vakinha.jpg',
+      imageUrl: '/assets/img/vakinha.webp',
       types: ['Plataforma de doações'],
       campaignURL:
         'https://www.instagram.com/p/C6eN5wuR0W3/?utm_source=ig_web_copy_link',
@@ -56,7 +56,7 @@ export class InitiativeGalleryComponent {
       name: 'MST',
       description:
         'Campanha do Movimento Sem Terra arrecadando recursos para atuar na crise.',
-      imageUrl: '/assets/img/mst.jpg',
+      imageUrl: '/assets/img/mst.webp',
       campaignURL:
         'https://www.instagram.com/p/C6jX-njOLiD/?utm_source=ig_web_copy_link',
       types: ['PIX'],
@@ -65,7 +65,7 @@ export class InitiativeGalleryComponent {
       id: 6,
       name: 'Hemocentro',
       description: 'Campanha do Hemocentro para doação de sangue.',
-      imageUrl: '/assets/img/hemocentro.jpg',
+      imageUrl: '/assets/img/hemocentro.webp',
       types: ['Doação de sangue'],
       campaignURL:
         'https://www.instagram.com/p/C6errRSuuXy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
@@ -75,7 +75,7 @@ export class InitiativeGalleryComponent {
       name: '101 Vira Latas',
       description:
         'Campanha da ONG 101 Vira Latas para atuar no amparo aos animais desabrigados.',
-      imageUrl: '/assets/img/101viralatas.jpg',
+      imageUrl: '/assets/img/101viralatas.webp',
       types: ['Doações físicas', 'Voluntariado'],
       campaignURL:
         'https://www.instagram.com/p/C6fAnqvsQhu/?utm_source=ig_web_copy_link',
@@ -85,7 +85,7 @@ export class InitiativeGalleryComponent {
       name: 'GRAD - Grupo de Resposta a Animais em Desastres',
       description:
         'Campanha de arrecadação do GRAD, que está atuando no resgate de animais.',
-      imageUrl: '/assets/img/grad.jpg',
+      imageUrl: '/assets/img/grad.webp',
       types: ['PIX'],
       campaignURL:
         'https://www.instagram.com/p/C6eyJkaRaWN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
@@ -94,7 +94,7 @@ export class InitiativeGalleryComponent {
       id: 9,
       name: 'Defesa Civil',
       description: 'Campanha de Voluntariado para atuar junto à Defesa Civil.',
-      imageUrl: '/assets/img/defesa-civil.jpg',
+      imageUrl: '/assets/img/defesa-civil.webp',
       types: ['Voluntariado'],
       campaignURL:
         'https://www.instagram.com/p/CzcXHM6uu-L/?utm_source=ig_web_copy_link',
@@ -104,7 +104,7 @@ export class InitiativeGalleryComponent {
       name: 'SindBancarios',
       description:
         'Campanha do Sindicato dos Bancários de POA arrecando doações físicas e financeiras para auxílio aos atingidos.',
-      imageUrl: '/assets/img/sindbancarios.jpg',
+      imageUrl: '/assets/img/sindbancarios.webp',
       types: ['Doações físicas', 'PIX'],
       campaignURL:
         'https://www.instagram.com/p/C6eqHLBt4dj/?utm_source=ig_web_copy_link',
@@ -114,7 +114,7 @@ export class InitiativeGalleryComponent {
       name: 'Movimento Brasil Popular',
       description:
         'Campanha do Movimento Brasil Popular arrecadando recursos para auxiliar os atingidos.',
-      imageUrl: '/assets/img/brasilpopular.jpg',
+      imageUrl: '/assets/img/brasilpopular.webp',
       types: ['PIX'],
       campaignURL:
         'https://www.instagram.com/p/C6hV-lkP0t8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
@@ -124,7 +124,7 @@ export class InitiativeGalleryComponent {
       name: 'Diversos',
       description:
         'Post da Vila Flores reunindo diversas ações para participar.',
-      imageUrl: '/assets/img/vilaflores.jpg',
+      imageUrl: '/assets/img/vilaflores.webp',
       types: ['Diversos'],
       campaignURL:
         'https://www.instagram.com/p/C6fBoeoOjoU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
@@ -134,7 +134,7 @@ export class InitiativeGalleryComponent {
       name: 'Ateneu Libertário',
       description:
         'Campanha do Ateneu Libertário arrecadando recursos para auxiliar os atingidos.',
-      imageUrl: '/assets/img/ateneu.jpg',
+      imageUrl: '/assets/img/ateneu.webp',
       types: ['Doações físicas', 'PIX'],
       campaignURL:
         'https://www.instagram.com/p/C6jlFtlOFIR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
