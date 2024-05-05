@@ -190,6 +190,14 @@ export class InitiativeGalleryComponent {
       campaignURL:
         'https://www.instagram.com/p/C6d5ZOJr7ts/?utm_source=ig_web_copy_link',
     },
+    {
+      id: 19,
+      name: 'Ajuda RS',
+      description: 'Site reunindo diversas campanhas atuando na crise.',
+      imageUrl: '/assets/img/ajudars.webp',
+      types: ['Diversos'],
+      campaignURL: 'https://bento.me/ajudars',
+    },
   ];
 
   public selectedType = '';
