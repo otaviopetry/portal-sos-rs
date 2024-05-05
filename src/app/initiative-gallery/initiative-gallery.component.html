@@ -11,8 +11,7 @@
     }
   </div>
   <div class="masonry-grid md:columns-2 lg:columns-3 w-full">
-    @for (initiative of getFilteredInitiatives().reverse(); track initiative.id)
-    {
+    @for (initiative of getFilteredInitiatives(); track initiative.id) {
     <div class="masonry-item col-span-1 w-full">
       <app-initiative-card [initiative]="initiative"></app-initiative-card>
     </div>

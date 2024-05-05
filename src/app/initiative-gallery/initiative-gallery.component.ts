@@ -198,6 +198,16 @@ export class InitiativeGalleryComponent {
       types: ['Diversos'],
       campaignURL: 'https://bento.me/ajudars',
     },
+    {
+      id: 20,
+      name: 'Oficina Sem Fome',
+      description:
+        'Projeto que está produzindo marmitas para distribuir a quem precisa.',
+      imageUrl: '/assets/img/oficina-sem-fome.webp',
+      types: ['PIX'],
+      campaignURL:
+        'https://www.instagram.com/p/C6kRiGluymZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    },
   ];
 
   public selectedType = '';
@@ -209,12 +219,14 @@ export class InitiativeGalleryComponent {
 
   public getFilteredInitiatives() {
     if (!this.selectedType) {
-      return this.initiatives;
+      return [...this.initiatives].reverse();
     }
 
-    return this.initiatives.filter((initiative) =>
-      initiative.types.includes(this.selectedType)
-    );
+    return [
+      ...this.initiatives.filter((initiative) =>
+        initiative.types.includes(this.selectedType)
+      ),
+    ].reverse();
   }
 
   public getUniqueTypes(): string[] {
