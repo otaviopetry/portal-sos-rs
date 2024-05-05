@@ -170,6 +170,26 @@ export class InitiativeGalleryComponent {
       campaignURL:
         'https://www.instagram.com/p/C6hZWooOIlU/?utm_source=ig_web_copy_link',
     },
+    {
+      id: 17,
+      name: 'CUFA',
+      description:
+        'Campanha da Central Única das Favelas arrecadando recursos para auxiliar os atingidos.',
+      imageUrl: '/assets/img/cufa.webp',
+      types: ['PIX'],
+      campaignURL:
+        'https://www.instagram.com/p/C6hNWBzpbRK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    },
+    {
+      id: 18,
+      name: 'MAB Região Sul',
+      description:
+        'Campanha do Movimento dos Atingidos por Barragens arrecadando recursos para auxiliar os atingidos.',
+      imageUrl: '/assets/img/mabsul.webp',
+      types: ['PIX'],
+      campaignURL:
+        'https://www.instagram.com/p/C6d5ZOJr7ts/?utm_source=ig_web_copy_link',
+    },
   ];
 
   public selectedType = '';
