@@ -149,5 +149,25 @@ export class InitiativeGalleryComponent {
       campaignURL:
         'https://www.instagram.com/p/C6fGNGktMRL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
+    {
+      id: 15,
+      name: 'Mato do Julio',
+      description:
+        'Organização de Cachoeirinha arrecadando recursos para auxiliar os atingidos.',
+      imageUrl: '/assets/img/mato-do-julio.webp',
+      types: ['PIX'],
+      campaignURL:
+        'https://www.instagram.com/reel/C6kBR75u764/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    },
+    {
+      id: 16,
+      name: 'Frente Quilombola',
+      description:
+        'Campanha arrecadando recursos para auxiliar os atingidos do Quilombo dos Machados em Porto Alegre.',
+      imageUrl: '/assets/img/frente-quilombola.webp',
+      types: ['Doações físicas'],
+      campaignURL:
+        'https://www.instagram.com/p/C6hZWooOIlU/?utm_source=ig_web_copy_link',
+    },
   ];
 }
