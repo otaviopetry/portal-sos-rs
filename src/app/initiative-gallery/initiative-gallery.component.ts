@@ -204,7 +204,6 @@ export class InitiativeGalleryComponent {
   }
 
   public onTypeClick(type: string) {
-    console.log('===> clicked type:', type);
     if (this.selectedType === type) {
       this.selectedType = '';
 
@@ -212,6 +211,5 @@ export class InitiativeGalleryComponent {
     }
 
     this.selectedType = type;
-    console.log('===> selected type:', this.selectedType);
   }
 }
