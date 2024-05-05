@@ -139,5 +139,15 @@ export class InitiativeGalleryComponent {
       campaignURL:
         'https://www.instagram.com/p/C6jlFtlOFIR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
     },
+    {
+      id: 14,
+      name: 'Grupo do Bem',
+      description:
+        'Organização de Santa Cruz do Sul arrecadando recursos para auxiliar os atingidos.',
+      imageUrl: '/assets/img/grupodobem.webp',
+      types: ['PIX'],
+      campaignURL:
+        'https://www.instagram.com/p/C6fGNGktMRL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+    },
   ];
 }
