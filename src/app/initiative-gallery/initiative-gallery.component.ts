@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { IInitiative } from '../interfaces/initiative.interface';
 import { InitiativeCardComponent } from '../initiative-card/initiative-card.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-initiative-gallery',
   standalone: true,
-  imports: [InitiativeCardComponent],
+  imports: [InitiativeCardComponent, CommonModule],
   templateUrl: './initiative-gallery.component.html',
   styleUrl: './initiative-gallery.component.scss',
 })
@@ -170,4 +171,47 @@ export class InitiativeGalleryComponent {
         'https://www.instagram.com/p/C6hZWooOIlU/?utm_source=ig_web_copy_link',
     },
   ];
+
+  public selectedType = '';
+  public uniqueTypes: string[] = [];
+
+  ngOnInit() {
+    this.uniqueTypes = this.getUniqueTypes();
+  }
+
+  public getFilteredInitiatives() {
+    if (!this.selectedType) {
+      return this.initiatives;
+    }
+
+    return this.initiatives.filter((initiative) =>
+      initiative.types.includes(this.selectedType)
+    );
+  }
+
+  public getUniqueTypes(): string[] {
+    return this.initiatives.reduce((acc: string[], initiative) => {
+      const types = initiative.types;
+
+      types.forEach((type) => {
+        if (!acc.includes(type)) {
+          acc.push(type);
+        }
+      });
+
+      return acc;
+    }, []);
+  }
+
+  public onTypeClick(type: string) {
+    console.log('===> clicked type:', type);
+    if (this.selectedType === type) {
+      this.selectedType = '';
+
+      return;
+    }
+
+    this.selectedType = type;
+    console.log('===> selected type:', this.selectedType);
+  }
 }
